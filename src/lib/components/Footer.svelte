@@ -26,6 +26,14 @@
 				<a href="#" class="text-xl font-normal text-light">Payment info</a>
 			</div>
 			<div class="w-full col-span-1 flex flex-col space-y-2.5">
+				<p class="text-secondary text-lg font-semibold pb-1.5">Social links</p>
+				<a href="#" class="text-lg font-normal text-light">Twitter</a>
+				<a href="#" class="text-lg font-normal text-light">Linkenin</a>
+				<a href="#" class="text-lg font-normal text-light">Facebook</a>
+				<a href="#" class="text-lg font-normal text-light">Instagram</a>
+				<a href="#" class="text-lg font-normal text-light">PSupport</a>
+			</div>
+			<div class="w-full col-span-1 flex flex-col space-y-2.5">
 				<p class="text-secondary text-xl font-semibold pb-1.5">Partnerships</p>
 				<a href="#" class="text-lg font-normal text-light">Partners</a>
 				<a href="#" class="text-lg font-normal text-light">Vendors</a>
@@ -34,14 +42,6 @@
 				<p class="text-secondary text-lg font-semibold pb-1.5">Terms</p>
 				<a href="#" class="text-lg font-normal text-light">Our Terms</a>
 				<a href="#" class="text-lg font-normal text-light">Our Policies</a>
-			</div>
-			<div class="w-full col-span-1 flex flex-col space-y-2.5">
-				<p class="text-secondary text-lg font-semibold pb-1.5">Social links</p>
-				<a href="#" class="text-lg font-normal text-light">Twitter</a>
-				<a href="#" class="text-lg font-normal text-light">Linkenin</a>
-				<a href="#" class="text-lg font-normal text-light">Facebook</a>
-				<a href="#" class="text-lg font-normal text-light">Instagram</a>
-				<a href="#" class="text-lg font-normal text-light">PSupport</a>
 			</div>
 			<div class="w-full col-span-1 flex flex-col space-y-2.5">
 				<p class="text-secondary text-lg font-semibold pb-1.5">Help</p>
