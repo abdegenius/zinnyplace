@@ -1,12 +1,3 @@
-<script>
-	import Footer from '$lib/components/Footer.svelte';
-	import CategoryNav from '../lib/components/CategoryNav.svelte';
-	import Header from '../lib/components/Header.svelte';
-</script>
-
-<Header />
-<CategoryNav />
-
 <div class="w-full bg-transparent px-2 sm:px-8 md:px-8 lg:px-12 xl:px-24 py-12">
 	<div
 		class="w-full bg-secondary py-24 px-4 sm:px-8 md:px-16 lg:px-24 xl:px-32 flex flex-col items-start justify-center space-x-0 space-y-12 lg:flex-row lg:justify-between lg:space-x-12 lg:space-y-0 rounded-xl relative"
@@ -846,4 +837,3 @@
 		</div>
 	</div>
 </div>
-<Footer />
