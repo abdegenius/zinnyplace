@@ -6,7 +6,7 @@
 </script>
 
 <header
-	class="w-full fixed top-0 h-[90px] z-[9998] bg-white border-b border-stone-300 flex items-center justify-start"
+	class="w-full fixed top-0 h-[90px] z-[98] bg-white border-b border-stone-300 flex items-center justify-start"
 >
 	<nav
 		class="w-full px-4 sm:px-8 md:px-8 lg:px-12 xl:px-24 flex items-center justify-between space-x-6"
@@ -66,7 +66,7 @@
 <div
 	class="{mobile_menu
 		? 'flex justify-start items-start space-y-6 flex-col'
-		: 'hidden'} xl:hidden fixed bg-white inset-0 w-full h-screen z-[9999] p-8 overflow-y-auto"
+		: 'hidden'} xl:hidden fixed bg-white inset-0 w-full h-screen z-[99] p-8 overflow-y-auto"
 >
 	<button
 		type="button"
