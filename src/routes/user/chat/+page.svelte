@@ -1,8 +1,4 @@
 <script>
-	$: show_chats = false;
-	const TOGGLE_SHOW_CHATS = () => {
-		show_chats = !show_chats;
-	};
 </script>
 
 <div
@@ -13,17 +9,8 @@
 		class="w-full flex flex-col justify-start items-start lg:flex-row lg:items-stretch border border-stone-300"
 	>
 		<div
-			class="bg-white border-r border-stone-300 h-screen w-full {show_chats
-				? 'flex inset-0 fixed lg:relative z-[99]'
-				: 'hidden'} lg:w-1/3 lg:flex flex-col space-y-0 divide-y divide-stone-300 overflow-hidden lg:overflow-y-auto scrollbar-hide"
+			class="bg-white border-r border-stone-300 h-screen w-full lg:w-1/3 lg:flex flex-col space-y-0 divide-y divide-stone-300 overflow-hidden lg:overflow-y-auto scrollbar-hide"
 		>
-			<button
-				type="button"
-				on:click={TOGGLE_SHOW_CHATS}
-				class="cursor-pointer w-fit ml-auto flex items-end justify-end lg:hidden rounded-lg px-4 py-2 text-md flex-row bg-red-100 text-red-600 hover:bg-red-600 hover:text-red-50 m-2"
-			>
-				Close
-			</button>
 			<div class="w-full p-4 flex items-start justify-start">
 				<input
 					type="text"
@@ -33,7 +20,6 @@
 			</div>
 			<a
 				href="/user/chat/1"
-				on:click={() => (show_chats = false)}
 				class="w-full bg-white text-stone-600 p-4 hover:bg-primary hover:text-secondary flex space-x-2 flex-row items-center justify-start"
 			>
 				<div class="flex items-center flex-none w-12 h-12">
@@ -51,7 +37,6 @@
 			</a>
 			<a
 				href="/user/chat/1"
-				on:click={() => (show_chats = false)}
 				class="w-full bg-white text-stone-600 p-4 hover:bg-primary hover:text-secondary flex space-x-2 flex-row items-center justify-start"
 			>
 				<div class="flex items-center flex-none w-12 h-12">
@@ -69,7 +54,6 @@
 			</a>
 			<a
 				href="/user/chat/1"
-				on:click={() => (show_chats = false)}
 				class="w-full bg-white text-stone-600 p-4 hover:bg-primary hover:text-secondary flex space-x-2 flex-row items-center justify-start"
 			>
 				<div class="flex items-center flex-none w-12 h-12">
@@ -87,7 +71,6 @@
 			</a>
 			<a
 				href="/user/chat/1"
-				on:click={() => (show_chats = false)}
 				class="w-full bg-white text-stone-600 p-4 hover:bg-primary hover:text-secondary flex space-x-2 flex-row items-center justify-start"
 			>
 				<div class="flex items-center flex-none w-12 h-12">
@@ -105,9 +88,7 @@
 			</a>
 		</div>
 		<div
-			class="w-full flex items-center justify-center mx-auto max-w-xs lg:w-2/3 py-24 lg:py-0 {show_chats
-				? 'hidden'
-				: 'flex'}"
+			class="w-full lg:flex items-center justify-center mx-auto max-w-xs lg:w-2/3 py-24 lg:py-0 hidden"
 		>
 			<div class="w-full flex items-center justify-center flex-col space-y-2">
 				<i class="fal fa-comments text-[12rem] text-primary/25"></i>
@@ -115,18 +96,4 @@
 			</div>
 		</div>
 	</div>
-</div>
-
-<div class="{show_chats ? 'hidden' : ''} lg:hidden w-fit h-auto fixed bottom-1/4 right-5">
-	<button
-		on:click={TOGGLE_SHOW_CHATS}
-		class="z-[100] bg-secondary text-primary border-2 border-primary/25 text-center text-4xl w-16 h-16 rounded-full p-2 mx-auto flex items-center justify-center flex-col"
-	>
-		<i class="fa fa-comment text-primary/50"></i>
-		<span
-			class="w-6 h-6 rounded-full items-center flex mx-auto justify-center bg-red-600 text-red-50 font-black text-[10px] absolute right-0 top-0"
-		>
-			10
-		</span>
-	</button>
 </div>

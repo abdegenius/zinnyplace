@@ -35,8 +35,8 @@
 
 				<div class="hidden xl:flex items-center justify-start space-x-2 xl:w-4/12 w-full">
 					<a href="#" class="text-md font-normal text-primary py-2 px-4 rounded-lg bg-transparent hover:border hover:border-secondary/50 hover:bg-stone-50">About Us</a>
-					<a href="#" class="text-md font-normal text-primary py-2 px-4 rounded-lg bg-transparent hover:border hover:border-secondary/50 hover:bg-stone-50">Sign Up</a>
-					<a href="#" class="text-md font-normal text-primary py-2 px-4 rounded-lg bg-transparent hover:border hover:border-secondary/50 hover:bg-stone-50">Log In</a>
+					<a href="/auth/login" class="text-md font-normal text-primary py-2 px-4 rounded-lg bg-transparent hover:border hover:border-secondary/50 hover:bg-stone-50">Sign Up</a>
+					<a href="/auth/register" class="text-md font-normal text-primary py-2 px-4 rounded-lg bg-transparent hover:border hover:border-secondary/50 hover:bg-stone-50">Log In</a>
 				</div>
 				<div
 					class="hidden xl:flex flex-none items-center justify-end px-3 py-2 bg-light border-2 border-primary/5 rounded-md space-x-4 xl:w-2/12 max-w-[120px] hover:bg-secondary/50"
@@ -104,12 +104,12 @@
 			>About Us</a
 		>
 		<a
-			href="#"
+			href="/auth/register"
 			class="text-xl md:text-2xl font-light text-primary bg-stone-50 w-full border-b border-secondary/50 hover:bg-secondary/25 p-4"
 			>Sign Up</a
 		>
 		<a
-			href="#"
+			href="/auth/login"
 			class="text-xl rounded-b-lg md:text-2xl font-light text-primary bg-stone-50 w-full border-b border-secondary/50 hover:bg-secondary/25 p-4"
 			>Log In</a
 		>

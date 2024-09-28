@@ -256,7 +256,7 @@
 	</div>
 </div>
 
-<div class="{show_chats ? 'hidden' : ''} lg:hidden w-fit h-auto fixed bottom-1/4 right-5">
+<div class="{show_chats ? 'hidden' : ''} lg:hidden w-fit h-auto fixed bottom-10 right-5">
 	<button
 		on:click={TOGGLE_SHOW_CHATS}
 		class="z-[100] bg-secondary text-primary border-2 border-primary/25 text-center text-4xl w-16 h-16 rounded-full p-2 mx-auto flex items-center justify-center flex-col"

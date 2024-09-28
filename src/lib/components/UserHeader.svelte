@@ -48,9 +48,9 @@
 					<div class="w-8 h-8 relative rounded-full bg-transparent hover:bg-secondary">
 						<img src="/heart.png" alt="heart" class="w-full h-full" />
 					</div>
-					<div class="w-8 h-8 relative rounded-full bg-transparent hover:bg-secondary">
+					<a href="/user/chat" class="w-8 h-8 relative rounded-full bg-transparent hover:bg-secondary">
 						<img src="/message.png" alt="heart" class="w-full h-full" />
-					</div>
+					</a>
 					<div class="w-7 h-7 relative rounded-full bg-transparent hover:bg-secondary">
 						<img src="/cart.png" alt="heart" class="w-full h-full" />
 						<div
@@ -156,7 +156,7 @@
 				</div>
 			</div>
 		</div>
-		<div
+		<a href="/user/chat"
 			class="flex flex-none w-full items-center space-x-2 justify-between rounded-lg bg-transparent border border-secondary/50 hover:bg-stone-50 p-4"
 		>
 			<div class="w-full items-center space-x-4 justify-start flex">
@@ -170,7 +170,7 @@
 					0
 				</div>
 			</div>
-		</div>
+		</a>
 		<div
 			class="flex flex-none w-full items-center space-x-2 justify-between rounded-lg bg-transparent border border-secondary/50 hover:bg-stone-50 p-4"
 		>

@@ -31,7 +31,7 @@
 				<a href="#" class="text-lg font-normal text-light">Linkenin</a>
 				<a href="#" class="text-lg font-normal text-light">Facebook</a>
 				<a href="#" class="text-lg font-normal text-light">Instagram</a>
-				<a href="#" class="text-lg font-normal text-light">PSupport</a>
+				<a href="#" class="text-lg font-normal text-light">Support</a>
 			</div>
 			<div class="w-full col-span-1 flex flex-col space-y-2.5">
 				<p class="text-secondary text-xl font-semibold pb-1.5">Partnerships</p>
