@@ -6,7 +6,7 @@
 >
 	<div class="w-full flex flex-row space-x-4 items-center justify-start mt-24">
 		<i class="fal fa-chevron-left text-2xl text-stone-600"></i>
-		<span class="text-xl font-normal text-stone-600">Profile</span>
+		<span class="text-xl font-normal text-stone-600">Dashboard</span>
 	</div>
 
 	<div
@@ -53,8 +53,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="w-full md:w-1/2 flex justify-start items-start flex-col space-y-4">
-				<div class="text-xl font-normal text-primary">Away. Avg. Response time: 1hr</div>
+			<div class="w-full md:w-1/2 flex justify-end items-end flex-col space-y-4 mr-auto max-w-md">
 				<div class="w-full flex flex-row items-center justify-start space-x-2">
 					<img src="/verify-filled.png" alt="verify-filled" class="w-8 h-8" />
 					<h3 class="text-xl font-normal text-primary">Phone number verified</h3>
@@ -63,17 +62,9 @@
 					<img src="/verify-filled.png" alt="verify-filled" class="w-8 h-8" />
 					<h3 class="text-xl font-normal text-primary">Email address verified</h3>
 				</div>
-				<div class="flex justify-between items-center space-x-4">
-					<button
-						class=" bg-primary text-white rounded-full w-8 h-8 mx-auto text-center flex items-center justify-center"
-					>
-						<i class="fal fa-share-alt"></i>
-					</button>
-					<button
-						class=" bg-primary text-white rounded-full w-8 h-8 mx-auto text-center flex items-center justify-center"
-					>
-						<i class="fal fa-flag"></i>
-					</button>
+				<div class="w-full flex flex-row items-center justify-start space-x-2">
+					<i class="fal fa-edit"></i>
+					<span class="text-xl font-normal text-primary">Avg. Response time: 1hr</span>
 				</div>
 			</div>
 		</div>
@@ -118,7 +109,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="w-full md:w-1/2 flex justify-end items-start flex-col space-y-4">
+			<div class="w-full md:w-1/2 flex justify-start items-start flex-col space-y-4">
 				<div class="w-full flex flex-col justify-start items-start py-8 px-2 max-w-md">
 					<div class="w-full flex flex-row space-x-4 items-center justify-start pb-16">
 						<h3 class="text-2xl text-primary font-normal underline">Item listed from buyer</h3>
