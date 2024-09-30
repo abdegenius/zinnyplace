@@ -17,7 +17,7 @@
 		<div class="w-1/4 sm:w-1/5 md:w-3/4 lg:w-4/5 xl:w-5/6">
 			<div class="w-full flex items-center justify-start space-x-8">
 				<div
-					class="hidden md:flex items-center justify-between space-x-2 w-full lg:w-4/12 xl:w-3/12 border border-stone-300 rounded-full px-2 py-1"
+					class="hidden md:flex items-center justify-between space-x-2 w-full xl:w-3/12 border border-stone-300 rounded-full px-2 py-1"
 				>
 					<input
 						type="text"
@@ -81,7 +81,7 @@
 
 				<div
 					on:click={TOGGLE_MENU}
-					class="w-fit flex-none flex items-end justify-end lg:w-1/12 xl:hidden"
+					class="w-fit flex-none flex items-end justify-end w-fit mr-auto xl:hidden"
 				>
 					<button
 						type="button"

@@ -81,9 +81,9 @@
 		<div class="block w-full h-[2px] border-dashed border-[1.5px] border-stone-300"></div>
 
 		<div
-			class="w-full flex flex-col space-y-4 space-x-0 justify-start items-start md:flex-row md:space-y-0 md:space-x-2 lg:space-x-8 rounded-xl bg-stone-100 p-4"
+			class="w-full grid grid-cols-1 md:grid-cols-2 gap-6 items-start rounded-xl bg-stone-100 p-4"
 		>
-			<div class="w-full md:w-1/2">
+			<div class="w-full col-span-1">
 				<div class="w-full flex flex-col justify-start items-start py-8 px-2 max-w-md">
 					<h3 class="text-2xl font-bold text-primary pb-8">Stat</h3>
 
@@ -118,11 +118,11 @@
 					</div>
 				</div>
 			</div>
-			<div class="w-full md:w-1/2 flex justify-end items-start flex-col space-y-4">
+			<div class="w-full col-span-1 flex justify-end items-start flex-col space-y-4">
 				<div class="w-full flex flex-col justify-start items-start py-8 px-2 max-w-md">
 					<div class="w-full flex flex-row space-x-4 items-center justify-start pb-16">
 						<h3 class="text-2xl text-primary font-normal underline">Item listed from buyer</h3>
-						<i class="fal fa-arrow-alt-right"></i>
+						<i class="fal fa-chevron-right"></i>
 					</div>
 					<div class="font-black text-6xl text-primary text-center pb-1">28</div>
 					<div class="font-black text-2xl text-primary text-center">Goods sold</div>
