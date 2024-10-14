@@ -5,8 +5,8 @@
 		<a
 			href="/store"
 			class="px-5 py-2.5 flex-none flex items-center justify-center hover:border-2 hover:border-secondary/50 hover:bg-light rounded-lg bg-transparent space-y-2 flex-col text-primary text-center"
-		>src/lib/components/CategoryNav_2.svelte
-			<span class="fal fa-home text-lg"></span>
+		>
+					<span class="fal fa-home text-lg"></span>
 			<span class="text-sm font-normal truncate">Phone & Tablet</span>
 		</a>
 

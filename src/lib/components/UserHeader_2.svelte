@@ -11,9 +11,9 @@
 	<nav
 		class="w-full px-4 sm:px-8 md:px-8 lg:px-12 xl:px-24 flex items-center justify-between space-x-6"
 	>
-		<div class="flex items-start justify-start w-3/4 sm:w-4/5 md:w-1/4 lg:w-1/5 xl:w-1/6">
+		<a href="/" class="flex items-start justify-start w-3/4 sm:w-4/5 md:w-1/4 lg:w-1/5 xl:w-1/6">
 			<img src="/logo.png" class="w-48 h-10" alt="Zinny'splace" />
-		</div>
+		</a>
 		<div class="w-1/4 sm:w-1/5 md:w-3/4 lg:w-4/5 xl:w-5/6">
 			<div class="w-full flex items-center justify-between space-x-8">
 				<div
@@ -24,7 +24,7 @@
 						class="text-md font-normal text-stone-600 placeholder:text-stone-400 w-full outline-none"
 						placeholder="Search for anything..."
 					/>
-					<i class="fal fa-search text-2xl px-2 text-stone-400"></i>
+					<a href="/seller/seller_search" class="fal fa-search cursor-pointer text-2xl px-2 text-stone-400"></a>
 				</div>
 			
 
@@ -34,7 +34,7 @@
 					<div
 						class="flex flex-none items-center space-x-2 justify-start rounded-lg bg-transparent hover:border hover:border-secondary/50 hover:bg-stone-50 px-3 py-1"
 					>
-						<span class="text-lg font-normal text-stone-800">List Item</span>
+						<a href="/listing_future" class="text-lg font-normal text-stone-800">List Item</a>
 					</div>
 					<div class=" relative rounded-full bg-transparent">
                         Orders
@@ -99,7 +99,7 @@
 			class="text-md bg-transparent font-normal text-stone-600 placeholder:text-stone-400 w-full outline-none"
 			placeholder="Search for anything..."
 		/>
-		<i class="fal fa-search text-2xl px-2 text-stone-400"></i>
+		<a href="/seller/seller_search" class="fal fa-search cursor-pointer text-2xl px-2 text-stone-400"></a>
 	</div>
 	<div class="flex xl:hidden flex-none w-full items-start flex-col justify-start space-y-4">
 		<div

@@ -11,9 +11,9 @@
 	<nav
 		class="w-full px-4 sm:px-8 md:px-8 lg:px-12 xl:px-24 flex items-center justify-between space-x-6"
 	>
-		<div class="flex items-start justify-start w-3/4 sm:w-4/5 md:w-1/4 lg:w-1/5 xl:w-1/6">
+		<a href="/" class="flex items-start justify-start w-3/4 sm:w-4/5 md:w-1/4 lg:w-1/5 xl:w-1/6">
 			<img src="/logo.png" class="w-48 h-10" alt="Zinny'splace" />
-		</div>
+		</a>
 		<div class="w-1/4 sm:w-1/5 md:w-3/4 lg:w-4/5 xl:w-5/6">
 			<div class="w-full flex items-center justify-start space-x-8">
 				<div

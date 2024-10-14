@@ -6,7 +6,7 @@
 </script>
 
 <header
-	class="w-full fixed top-0 h-[90px] z-[98] bg-white border-b border-stone-300 flex items-center justify-start"
+	class="w-full  top-0 h-[90px] z-[98] border-b border-stone-300 flex items-center justify-start"
 >
 	<nav
 		class="w-full px-4 sm:px-8 md:px-8 lg:px-12 xl:px-24 flex items-center justify-between space-x-6"
@@ -21,28 +21,25 @@
 				>
 					<input
 						type="text"
-						class="text-md font-normal text-stone-600 placeholder:text-stone-400 w-full outline-none"
+						class="text-md font-normal text-Stone-500 bg-transparent placeholder:text-Stone-500 w-full outline-none"
 						placeholder="Search for anything..."
 					/>
-					<i class="fal fa-search text-2xl px-2 text-stone-400"></i>
+					<a href="./buyer_search" class="fal fa-search hover:cursor-pointer text-2xl px-2 text-stone-500 "></a>
 				</div>
-				<div class="hidden lg:flex items-center justify-start space-x-2 lg:w-7/12 xl:w-3/12 w-full  py-2 px-4 rounded-lg bg-transparent hover:border hover:border-secondary/50 hover:bg-stone-50">
-					<img src="/location-user.png" alt="user location" class="w-6 h-7" />
-					<span class="text-md font-normal text-stone-600 truncate"
-						>Michigan: 17 north main street.</span
-					>
+				<div class="hidden lg:flex items-center justify-evenly space-x-2 lg:w-7/12 xl:w-3/12   py-2 px-4 rounded-lg bg-transparent hover:border hover:border-secondary/50">
+					<span class="text-md font-normal text-stone-500 truncate">Download app</span>
+					<span class="w-5 h-5 fa fa-angle-down bg-stone-500 text-black rounded-full text-center flex justify-center items-center"></span>
 				</div>
 
 				<div class="hidden xl:flex items-center justify-start space-x-2 xl:w-4/12 w-full">
-					<a href="#" class="text-md font-normal text-primary py-2 px-4 rounded-lg bg-transparent hover:border hover:border-secondary/50 hover:bg-stone-50">About Us</a>
-					<a href="/auth/login" class="text-md font-normal text-primary py-2 px-4 rounded-lg bg-transparent hover:border hover:border-secondary/50 hover:bg-stone-50">Sign Up</a>
-					<a href="/auth/register" class="text-md font-normal text-primary py-2 px-4 rounded-lg bg-transparent hover:border hover:border-secondary/50 hover:bg-stone-50">Log In</a>
+					<a href="/" class="text-md font-normal text-stone-500 py-2 px-4 rounded-lg bg-transparent hover:border hover:border-secondary/50">About Us</a>
+					<a href="/" class="text-md font-normal text-stone-500 py-2 px-4 rounded-lg bg-transparent hover:border hover:border-secondary/50">Hire Freelancer</a>
 				</div>
 				<div
-					class="hidden xl:flex flex-none items-center justify-end px-3 py-2 bg-light border-2 border-primary/5 rounded-md space-x-4 xl:w-2/12 max-w-[120px] hover:bg-secondary/50"
+					class="hidden xl:flex flex-none items-center justify-end px-3 py-2 bg-transparent border-2 border-secondary rounded-md space-x-4 xl:w-2/12 max-w-[200px] hover:bg-secondary/50"
 				>
-					<a href="#" class="text-md font-normal text-primary">Sell</a>
-					<a href="#" class="px-4 py-1 text-md font-normal text-secondary bg-primary rounded-lg">
+					<a href="/" class="text-md font-normal text-stone-500">Freelancer</a>
+					<a href="/" class="px-4 py-1 text-md font-normal text-secondary bg-primary rounded-lg">
 						<i class="fal fa-arrow-right"></i>
 					</a>
 				</div>
@@ -53,7 +50,7 @@
 				>
 					<button
 						type="button"
-						class="w-10 h-10 p-2 rounded-lg bg-secondary mx-auto flex items-center justify-center text-center cursor-pointer text-primary text-lg"
+						class="w-10 h-10 p-2 rounded-lg border border-secondary mx-auto flex items-center justify-center text-center cursor-pointer text-secondary text-lg"
 					>
 						<i class="fal fa-bars"></i>
 					</button>
@@ -89,38 +86,26 @@
 	</div>
 
 	<div
-		class="flex lg:hidden items-center justify-start space-x-2 w-full rounded-lg p-4 bg-stone-50 border-2 border-secondary/50 hover:bg-secondary/25"
-	>
-		<img src="/location-user.png" alt="user location" class="w-6 h-7" />
-		<span class="text-xl md:text-2xl font-light text-stone-600 truncate"
-			>Michigan: 17 north main street.</span
-		>
+		class="flex lg:hidden items-center justify-between space-x-2 w-full rounded-lg p-4 bg-stone-50 border-2 border-secondary/50 hover:bg-secondary/25">
+		<span class="text-xl md:text-2xl font-light text-stone-600 truncate">Download App</span>
+		<span class="fa fa-angle-down  flex items-center text-stone-600 justify-center rounded-full "></span>
 	</div>
 
 	<div class="flex xl:hidden items-start flex-col justify-start rounded-lg space-y-0 w-full border-2 border-secondary/50">
-		<a
-			href="#"
-			class="text-xl rounded-t-lg md:text-2xl font-light text-primary bg-stone-50 w-full border-b border-secondary/50 hover:bg-secondary/25 p-4"
-			>About Us</a
-		>
+		<a href="/" class="text-xl rounded-t-lg md:text-2xl font-light text-primary bg-stone-50 w-full border-b border-secondary/50 hover:bg-secondary/25 p-4">About Us</a>
 		<a
 			href="/auth/register"
 			class="text-xl md:text-2xl font-light text-primary bg-stone-50 w-full border-b border-secondary/50 hover:bg-secondary/25 p-4"
-			>Sign Up</a
-		>
-		<a
-			href="/auth/login"
-			class="text-xl rounded-b-lg md:text-2xl font-light text-primary bg-stone-50 w-full border-b border-secondary/50 hover:bg-secondary/25 p-4"
-			>Log In</a
+			>Hire Freelancer</a
 		>
 	</div>
 
 	<div
 		class="xl:hidden w-full flex flex-none items-center justify-start bg-stone-50 border-2 border-secondary/50 rounded-lg space-x-8 hover:bg-secondary/25"
 	>
-		<a href="#" class="w-full py-1 px-6 text-xl md:text-2xl font-normal text-primary">Sell</a>
+		<a href="/" class="w-full py-1 px-6 text-xl md:text-2xl font-normal text-primary">Freelancer</a>
 		<a
-			href="#"
+			href="/"
 			class="w-fit px-8 py-4 text-xl md:text-2xl font-normal text-secondary bg-primary rounded-lg"
 		>
 			<i class="fal fa-arrow-right"></i>

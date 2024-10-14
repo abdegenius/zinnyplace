@@ -1,4 +1,4 @@
-<section class="w-full bg-transparent pt-28 pb-4">
+<section class="w-full bg-transparent pt-24 pb-2">
 	<div
 		class="flex  justify-start items-center space-x-6 px-4 sm:px-8 md:px-8 lg:px-12 xl:px-24 overflow-y-auto scrollbar-hide"
 	>
