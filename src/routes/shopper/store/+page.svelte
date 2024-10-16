@@ -1,11 +1,11 @@
 <script>
 	import Footer from '$lib/components/Footer.svelte';
 	import CategoryNav from '$lib/components/CategoryNav.svelte';
-	import Header from '$lib/components/Header.svelte';
+	import ShopperHeader from '$lib/components/ShopperHeader.svelte';
 </script>
 
 <main class="w-full min-h-screen m-0 p-0 bg-white">
-	<Header />
+	<ShopperHeader />
 	<CategoryNav />
 	<div class="w-full bg-transparent px-2 sm:px-8 md:px-8 lg:px-12 xl:px-24 py-12">
 		<div
